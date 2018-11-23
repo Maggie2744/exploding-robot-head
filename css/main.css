@@ -15,11 +15,15 @@ body {
 
 .banner {
   background-color: #2b3851;
+  position: absolute;
+  width: 100%;
 }
 
 .robot {
   width: 320px;
   margin: auto;
+  position: relative;
+  top: 17px;
 }
 
 .robot-body {
