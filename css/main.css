@@ -55,3 +55,19 @@ body {
   left: 31%;
   transform: translateX(-50%);
 }
+
+.robot:hover .robot-brain {
+  top: 4rem;
+}
+
+.robot:hover .robot-head-right {
+  left: 70%;
+  transform: translateX(-50%);
+  transform: translateY(-10%);
+}
+
+.robot:hover .robot-head-left {
+  left: -7%;
+  transform: translateX(-50%);
+  transform: translateY(-10%);
+}
