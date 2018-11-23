@@ -28,13 +28,23 @@ body {
 
 .robot-body {
   width: 320px;
+  padding-top: 5rem;
 }
 
 .robot-brain {
   width: 46px;
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -.5rem;
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
+  position: absolute;
+  top: -2.4rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
