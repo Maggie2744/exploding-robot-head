@@ -17,7 +17,7 @@ body {
   background-color: #2b3851;
   position: absolute;
   width: 100%;
-  padding-top: 1rem;
+  margin-top: -1rem;
 }
 
 .robot {
