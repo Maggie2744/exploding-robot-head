@@ -23,7 +23,7 @@ body {
   width: 320px;
   margin: auto;
   position: relative;
-  top: 17px;
+  top: 7px;
 }
 
 .robot-body {
@@ -37,14 +37,21 @@ body {
   bottom: 1em;
   left: 50%;
   transform: translateX(-50%);
-  top: -.5rem;
+  top: 6rem;
 }
 
-.robot-head-right,
+.robot-head-right {
+  width: 125px;
+  position: absolute;
+  top: 2.6rem;
+  left: 70%;
+  transform: translateX(-50%);
+}
+
 .robot-head-left {
   width: 125px;
   position: absolute;
-  top: -2.4rem;
-  left: 50%;
+  top: 2.6rem;
+  left: 31%;
   transform: translateX(-50%);
 }
